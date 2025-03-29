@@ -1,35 +1,36 @@
-url: https://example.com/apis/agriculture-api-agrio.yml
+aid: domo
+url: https://raw.githubusercontent.com/api-evangelist/domo/refs/heads/main/apis.yml
 apis:
-  - aid: agrio:agrio
-    name: Agrio
+  - aid: domo:domo
+    name: Domo
     tags:
-      - Credit
-      - Balance
-      - Crops
-      - Diagnose
-      - Diagnosis
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://agrio.app/Agriculture-API/
+      - API
+    humanURL: ' https://developer.domo.com/portal/d01f63a6ba662-domo-developer-portal'
     properties:
-      - url: https://agrio.app/Agriculture-API/
+      - url: ' https://developer.domo.com/portal/d01f63a6ba662-domo-developer-portal'
         type: Documentation
-      - url: properties/agrio-openapi.yml
-        type: OpenAPI
     description: >-
-      With our APIs, you can access data on weather patterns, pest and disease
-      predictions, and more to build a more accurate crop advisory tool.  
-name: Agrio
-aid: agrio
+      Domo provides a large suite of enterprise-grade tools that help
+      organizations unlock business value from their data. The Domo platform
+      includes a world-class data warehouse, robust data pipeline functionality,
+      and an industry-leading visualization engine — all while ensuring data is
+      well-governed and secure. 
+name: Domo
 tags:
-  - Agriculture
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/agriculture-api-agrio.png
-created: '2024-07-11'
-modified: '2024-11-10'
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-03-01'
+modified: '2025-03-01'
+position: Consumer
 description: >-
-  With our APIs, you can access data on weather patterns, pest and disease
-  predictions, and more to build a more accurate crop advisory tool.
+  Domo provides a large suite of enterprise-grade tools that help organizations
+  unlock business value from their data. The Domo platform includes a
+  world-class data warehouse, robust data pipeline functionality, and an
+  industry-leading visualization engine — all while ensuring data is
+  well-governed and secure. 
 maintainers:
-  - FN: API Evangelist
+  - FN: Kin Lane
     email: info@apievangelist.com
-specificationVersion: '0.18'
+specificationVersion: '0.19'
