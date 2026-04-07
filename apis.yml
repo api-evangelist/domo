@@ -1,13 +1,12 @@
 aid: domo
-url: 
-  https://raw.githubusercontent.com/api-evangelist/domo/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/domo/refs/heads/main/apis.yml
 apis:
   - aid: domo:domo
     name: Domo API
     tags:
+      - Analysis
       - Data
       - Pipelines
-      - Analysis
       - Visualizations
     humanURL: ' https://developer.domo.com/portal/d01f63a6ba662-domo-developer-portal'
     properties:
@@ -21,9 +20,9 @@ apis:
       and systems, allowing for seamless data exchange and integration.
 name: Domo
 tags:
+  - Analysis
   - Data
   - Pipelines
-  - Analysis
   - Visualizations
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
