@@ -42,6 +42,10 @@ apis:
       - type: Authentication
         url: https://developer.domo.com/portal/8ba9aedad3679-authentication
 common:
+  - type: GitHubOrganization
+    url: https://github.com/domoinc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/domo-inc
   - type: Website
     url: https://www.domo.com
   - type: Developer Portal
