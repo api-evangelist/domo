@@ -48,7 +48,7 @@ common:
     url: https://www.linkedin.com/company/domo-inc
   - type: Website
     url: https://www.domo.com
-  - type: Developer Portal
+  - type: DeveloperPortal
     url: https://developer.domo.com
 maintainers:
   - FN: Kin Lane
