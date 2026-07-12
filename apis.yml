@@ -42,6 +42,8 @@ apis:
       - type: Authentication
         url: https://developer.domo.com/portal/8ba9aedad3679-authentication
 common:
+  - type: DomainSecurity
+    url: security/domo-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/domoinc
   - type: LinkedIn
