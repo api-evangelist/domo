@@ -37,6 +37,12 @@ tags:
   - Business Intelligence
   - Data
   - Pipelines
+  - Visualization
+tags_raw:
+  - Analysis
+  - Business Intelligence
+  - Data
+  - Pipelines
   - Visualizations
 url: https://raw.githubusercontent.com/api-evangelist/domo/refs/heads/main/apis.yml
 created: '2025-03-01'
@@ -54,6 +60,12 @@ apis:
     humanURL: https://developer.domo.com/portal/d01f63a6ba662-domo-developer-portal
     baseURL: https://api.domo.com
     tags:
+      - Analysis
+      - Business Intelligence
+      - Data
+      - Pipelines
+      - Visualization
+    tags_raw:
       - Analysis
       - Business Intelligence
       - Data
