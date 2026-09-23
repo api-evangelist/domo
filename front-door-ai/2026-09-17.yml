@@ -1,0 +1,31 @@
+# Front Door AI Index — domo — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: domo
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.domo.com
+  final_host: www.domo.com
+  ownership: own
+  owner: domo
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 34
+  host_score: 34
+  density: 34.55
+  words: 984
+  tiers:
+    agentic: 6
+    core: 28
+    model: 0
+  ambiguous: 13
+  top_terms:
+    AI: 28
+    agent: 10
+    AI agent: 4
+    intelligence: 2
+    agentic: 1
+    automation: 1
+    conversational AI: 1
