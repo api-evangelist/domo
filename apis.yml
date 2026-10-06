@@ -46,7 +46,7 @@ tags_raw:
   - Visualizations
 url: https://raw.githubusercontent.com/api-evangelist/domo/refs/heads/main/apis.yml
 created: '2025-03-01'
-modified: '2026-04-28'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: domo:domo-api
@@ -77,6 +77,8 @@ apis:
       - type: Authentication
         url: https://developer.domo.com/portal/8ba9aedad3679-authentication
 common:
+  - url: https://www.domo.com/blog
+    type: Blog
   - type: DomainSecurity
     url: security/domo-domain-security.yml
   - type: GitHubOrganization
