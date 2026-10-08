@@ -77,6 +77,12 @@ apis:
       - type: Authentication
         url: https://developer.domo.com/portal/8ba9aedad3679-authentication
 common:
+  - type: Plans
+    url: plans/domo-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/domo-rate-limits.yml
+  - type: FinOps
+    url: finops/domo-finops.yml
   - url: https://www.domo.com/blog
     type: Blog
   - type: DomainSecurity
