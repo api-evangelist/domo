@@ -3,6 +3,7 @@ method: searched
 checked:
 - https://azuremarketplace.microsoft.com/
 - https://github.com/meltano/hub
+- https://marketplace.brightcove.com/llms.txt
 - https://zapier.com/api/v4/apps/
 - microsoft-teams/integrations/microsoft-teams-integration-edges.yml
 - procore/integrations/procore-integration-edges.yml
@@ -131,5 +132,22 @@ edges:
   detected: '2026-10-18'
   detected_by: mirror-platform-listings.py
   category: Zoom app
+- partner_name: Brightcove (own)
+  partner: brightcove
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.brightcove.com/partners/domo
+  mirror_of: brightcove/integrations/brightcove-integration-edges.yml
+  apps:
+  - Domo
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Audience Engagement
 source:
 - procore/integrations/procore-integration-edges.yml
