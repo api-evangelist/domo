@@ -15,19 +15,6 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
-- slug: domo-procore-own
-  label: Procore (own)
-  partner: procore
-  partner_name: Procore (own)
-  category: Analytics
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://marketplace.procore.com/apps/domo
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
 - slug: domo-zapier
   label: Zapier
   partner: zapier
@@ -82,6 +69,19 @@
     builder: 'community (Meltano Hub variant maintainers: mashey)'
   status: not-a-workflow
   arazzo: null
+- slug: domo-brightcove-own
+  label: Brightcove (own)
+  partner: brightcove
+  partner_name: Brightcove (own)
+  category: Audience Engagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.brightcove.com/partners/domo
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
 - slug: domo-microsoft-teams-own
   label: Microsoft Teams (own)
   partner: microsoft-teams
@@ -95,6 +95,19 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: domo-zendesk-own
+  label: Zendesk (own)
+  partner: zendesk
+  partner_name: Zendesk (own)
+  category: Reporting and Analytics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.zendesk.com/marketplace/apps/support/239826/domo/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
 - slug: domo-zoom-own
   label: Zoom (own)
   partner: zoom
@@ -104,19 +117,6 @@
   marketplace: own
   channel: partner-built
   evidence: https://marketplace.zoom.us/apps/QES-IcTOTgSw-hwz4CVIIA
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
-- slug: domo-brightcove-own
-  label: Brightcove (own)
-  partner: brightcove
-  partner_name: Brightcove (own)
-  category: Audience Engagement
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://marketplace.brightcove.com/partners/domo
   source: edge
   relationship: platform-app
   status: not-a-workflow

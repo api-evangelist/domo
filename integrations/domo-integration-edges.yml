@@ -1,12 +1,13 @@
 generated: '2026-10-13'
 method: searched
 checked:
+- brightcove/integrations/brightcove-integration-edges.yml
 - https://azuremarketplace.microsoft.com/
 - https://github.com/meltano/hub
 - https://marketplace.brightcove.com/llms.txt
 - https://zapier.com/api/v4/apps/
 - microsoft-teams/integrations/microsoft-teams-integration-edges.yml
-- procore/integrations/procore-integration-edges.yml
+- zendesk/integrations/zendesk-integration-edges.yml
 - zoom/integrations/zoom-integration-edges.yml
 marketplace_apps: []
 edges:
@@ -25,23 +26,6 @@ edges:
   seller_name: Domo
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
-- partner_name: Procore (own)
-  partner: procore
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://marketplace.procore.com/apps/domo
-  mirror_of: procore/integrations/procore-integration-edges.yml
-  apps:
-  - Domo
-  listing_count: 1
-  detected: '2026-10-14'
-  detected_by: mirror-platform-listings.py
-  category: Analytics
 - partner_name: Zapier
   partner: zapier
   partner_match: aggregator
@@ -96,6 +80,23 @@ edges:
     builder: 'community (Meltano Hub variant maintainers: mashey)'
   detected_by: sweep-data-integration.py
   first_seen: '2026-10-18'
+- partner_name: Brightcove (own)
+  partner: brightcove
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.brightcove.com/partners/domo
+  mirror_of: brightcove/integrations/brightcove-integration-edges.yml
+  apps:
+  - Domo
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Audience Engagement
 - partner_name: Microsoft Teams (own)
   partner: microsoft-teams
   partner_match: mirror
@@ -115,6 +116,23 @@ edges:
   category: Microsoft Teams app
   publisher_verified:
   - Microsoft 365 Publisher Attestation
+- partner_name: Zendesk (own)
+  partner: zendesk
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.zendesk.com/marketplace/apps/support/239826/domo/
+  mirror_of: zendesk/integrations/zendesk-integration-edges.yml
+  apps:
+  - Domo
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: Reporting and Analytics
 - partner_name: Zoom (own)
   partner: zoom
   partner_match: mirror
@@ -132,22 +150,8 @@ edges:
   detected: '2026-10-18'
   detected_by: mirror-platform-listings.py
   category: Zoom app
-- partner_name: Brightcove (own)
-  partner: brightcove
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://marketplace.brightcove.com/partners/domo
-  mirror_of: brightcove/integrations/brightcove-integration-edges.yml
-  apps:
-  - Domo
-  listing_count: 1
-  detected: '2026-10-18'
-  detected_by: mirror-platform-listings.py
-  category: Audience Engagement
 source:
-- procore/integrations/procore-integration-edges.yml
+- brightcove/integrations/brightcove-integration-edges.yml
+- microsoft-teams/integrations/microsoft-teams-integration-edges.yml
+- zendesk/integrations/zendesk-integration-edges.yml
+- zoom/integrations/zoom-integration-edges.yml
